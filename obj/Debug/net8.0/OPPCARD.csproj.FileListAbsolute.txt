@@ -1,0 +1,15 @@
+C:\Users\melih\source\repos\OPPCARD\bin\Debug\net8.0\OPPCARD.exe
+C:\Users\melih\source\repos\OPPCARD\bin\Debug\net8.0\OPPCARD.deps.json
+C:\Users\melih\source\repos\OPPCARD\bin\Debug\net8.0\OPPCARD.runtimeconfig.json
+C:\Users\melih\source\repos\OPPCARD\bin\Debug\net8.0\OPPCARD.dll
+C:\Users\melih\source\repos\OPPCARD\bin\Debug\net8.0\OPPCARD.pdb
+C:\Users\melih\source\repos\OPPCARD\obj\Debug\net8.0\OPPCARD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\melih\source\repos\OPPCARD\obj\Debug\net8.0\OPPCARD.AssemblyInfoInputs.cache
+C:\Users\melih\source\repos\OPPCARD\obj\Debug\net8.0\OPPCARD.AssemblyInfo.cs
+C:\Users\melih\source\repos\OPPCARD\obj\Debug\net8.0\OPPCARD.csproj.CoreCompileInputs.cache
+C:\Users\melih\source\repos\OPPCARD\obj\Debug\net8.0\OPPCARD.sourcelink.json
+C:\Users\melih\source\repos\OPPCARD\obj\Debug\net8.0\OPPCARD.dll
+C:\Users\melih\source\repos\OPPCARD\obj\Debug\net8.0\refint\OPPCARD.dll
+C:\Users\melih\source\repos\OPPCARD\obj\Debug\net8.0\OPPCARD.pdb
+C:\Users\melih\source\repos\OPPCARD\obj\Debug\net8.0\OPPCARD.genruntimeconfig.cache
+C:\Users\melih\source\repos\OPPCARD\obj\Debug\net8.0\ref\OPPCARD.dll
