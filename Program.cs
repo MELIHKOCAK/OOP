@@ -1,4 +1,9 @@
-﻿class CARD
+﻿/* Bu projede Türkiye cumhuriyeti kimlik kartının bilgisayar ortamına
+ * aktarılmasına çalıştım. Bu işlemi gerçekleştirirken OOP paradigmasını
+ * kullandım.*/
+
+
+class CARD
 {
     #region CONSTRUCTOR
     public CARD(double width, double height, double thickness)
@@ -37,31 +42,33 @@
     }
     #endregion
 
-
 }
 
 class IDENTITYCARD : CARD
 {
     #region CONSTRUCTOR
-    public IDENTITYCARD() : base(8.3, 5.1, 0.1)
+    public IDENTITYCARD(string idNumber) : base(8.3, 5.1, 0.1)
     {
         WIDTH = base.WIDTH;
         HEIGHT = base.HEIGHT;
         THICKNESS = base.THICKNESS;
+        this.idNumber = idNumber.ToUpper().Trim();
     }
     #endregion
 
     #region VARIABLES
     bool control;
-    string name, surname, result;
+    string name, surname, result, nationality;
     DateTime birthDay;
+    char gender;
+    public readonly string idNumber; //Readonly keywordünü bildiğimi göstermek amaçlı bu örneği yaptım.
     #endregion
 
     #region NAME PROP
     public string NAME
     {
         get { return name; }
-        set { name = value.ToUpper(); }
+        set { name = value.ToUpper().Trim(); }
     }
 
     #endregion
@@ -70,7 +77,7 @@ class IDENTITYCARD : CARD
     public string SURNAME
     {
         get { return surname; }
-        set { surname = value.ToUpper(); }
+        set { surname = value.ToUpper().Trim(); }
     }
 
     #endregion
@@ -80,7 +87,7 @@ class IDENTITYCARD : CARD
     {
         get
         {
-            if (control == true)
+            if (control is true)
             {
                 result = "Please, check your birthday";
                 return result;
@@ -93,7 +100,7 @@ class IDENTITYCARD : CARD
         set
         {
             control = DateTime.Compare(DateTime.Now, Convert.ToDateTime(value)) < 0;
-            if (control == true)
+            if (control is true)
             {
                 Console.WriteLine("Please, check your birthday");
             }
@@ -106,6 +113,31 @@ class IDENTITYCARD : CARD
     }
     #endregion
 
+    #region GENDER PROP
+    public string GENDER
+    {
+        get
+        {
+            return gender.ToString();
+        }
+        set
+        {
+            gender = Convert.ToChar(value.Trim().ToUpper());
+        }
+    }
+    #endregion
+
+    #region NATIONALITY GET - SET METHODS
+    //Kapsülleme mantığının sadece Property ile değil method yardımı ile yapılabilidiğini göstermek amaçlı bu örneği yaptım.
+    public string nationalityGet()
+    {
+        return nationality;
+    }
+    public void nationalitySet(string value)
+    {
+        nationality = value.ToUpper().Trim();
+    }
+    #endregion
 }
 
 internal class Program
@@ -113,5 +145,7 @@ internal class Program
     private static void Main(string[] args)
     {
         
+
+
     }
 }
