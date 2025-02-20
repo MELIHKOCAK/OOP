@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OPPCARD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2522543495cc1da249933843860d6f6a76af0fe2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bed321e88fbfb9926e1df2876714c1601955abc")]
 [assembly: System.Reflection.AssemblyProductAttribute("OPPCARD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OPPCARD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
